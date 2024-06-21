@@ -1,0 +1,83 @@
+# use glob syntax
+syntax: glob
+
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+.vs/*
+[Bb]in
+[Dd]ebug/
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]humbs.db
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.resharper
+*.lock.json
+# ncrunch files
+*.ncrunchsolution
+*.ncrunchproject
+*.orig
+Temp/*
+UpgradeLog*.htm
+packages/*
+*.swp
+*.pub/*
+*/_publish/*
+package-lock.json
+reports/*
+*/nuget.config
+*/quartex.json
+*/quartex.*.json
+*/compiled-*.json
+
+# Common IntelliJ Platform excludes
+# User specific
+**/.idea/**/workspace.xml
+**/.idea/**/tasks.xml
+**/.idea/shelf/*
+**/.idea/dictionaries
+**/.idea/httpRequests/
+# Sensitive or high-churn files
+**/.idea/**/dataSources/
+**/.idea/**/dataSources.ids
+**/.idea/**/dataSources.xml
+**/.idea/**/dataSources.local.xml
+**/.idea/**/sqlDataSources.xml
+**/.idea/**/dynamic.xml
+# Rider
+# Rider auto-generates .iml files, and contentModel.xml
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
+
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+_UpgradeReport_Files/
+[Pp]ackages/
+
+Thumbs.db
+Desktop.ini
+.DS_Store
